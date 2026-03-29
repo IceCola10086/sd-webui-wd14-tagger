@@ -9,7 +9,7 @@ see also: https://github.com/picobyte/stable-diffusion-webui-wd14-tagger
 
 ## What is this?
 Add [pixai-tagger-v0.9-onnx](https://huggingface.co/deepghs/pixai-tagger-v0.9-onnx) to the wd14 tagger.
-
+ 
 ## What is pixai-tagger?
 [pixai-tagger-v0.9](https://huggingface.co/pixai-labs/pixai-tagger-v0.9) is a multi-label image classifier for anime images.
 
