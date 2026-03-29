@@ -1,4 +1,4 @@
-# Tagger for [Automatic1111's WebUI](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
+# wd14 Tagger for sd-webui-forge-aki
 
 Interrogate booru style tags for single or multiple image files using various models, such as DeepDanbooru.
 
@@ -7,12 +7,21 @@ Interrogate booru style tags for single or multiple image files using various mo
 
 see also: https://github.com/picobyte/stable-diffusion-webui-wd14-tagger
 
+## What is this?
+Add [pixai-tagger-v0.9-onnx](https://huggingface.co/deepghs/pixai-tagger-v0.9-onnx) to the wd14 tagger.
+
+## what is pixai-tagger?
+[pixai-tagger-v0.9](https://huggingface.co/pixai-labs/pixai-tagger-v0.9) is a multi-label image classifier for anime images.
+
+## Features
+- [x] pixai-tagger-v0.9-onnx
+
 ## Installation
 
 1. *Extensions* -> *Install from URL* -> Enter URL of this repository -> Press *Install* button
     - or clone this repository under `extensions/`
        ```sh
-       $ git clone https://github.com/Akegarasu/sd-webui-wd14-tagger.git extensions/tagger
+       $ git clone https://github.com/IceCola10086/sd-webui-wd14-tagger extensions/tagger
        ```
 
 2. *(optional)* Add interrogate model
@@ -20,6 +29,9 @@ see also: https://github.com/picobyte/stable-diffusion-webui-wd14-tagger
       Downloads automatically from the [HuggingFace repository](https://huggingface.co/SmilingWolf/wd-v1-4-vit-tagger)
       the first time you run it.
 
+3. *(optional)* Add pixai-tagger-v0.9-onnx
+      - Downloads automatically from the [HuggingFace repository](https://huggingface.co/deepghs/pixai-tagger-v0.9-onnx) the first time you run it.
+   
 
 3. Start or restart the WebUI.
     - or you can press refresh button after *Interrogator* dropdown box.

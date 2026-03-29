@@ -4,6 +4,7 @@ from pathlib import Path
 from modules import scripts
 from tagger.preset import Preset
 from tagger.interrogator import Interrogator, WaifuDiffusionInterrogator
+from tagger.pixai_interrogator import PixAIInterrogator
 
 preset = Preset(Path(scripts.basedir(), 'presets'))
 
@@ -80,6 +81,10 @@ def refresh_interrogators() -> List[str]:
         'wd14-convnext': WaifuDiffusionInterrogator(
             'wd14-convnext',
             repo_id='SmilingWolf/wd-v1-4-convnext-tagger'
+        ),
+        'pixai-tagger': PixAIInterrogator(
+            'pixai-tagger',
+            repo_id='deepghs/pixai-tagger-v0.9-onnx'
         ),
     }
 
